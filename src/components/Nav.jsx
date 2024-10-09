@@ -22,8 +22,8 @@ const Nav = () => {
   //   console.log(theme);
 
   return (
-    <div className="h-20">
-      <div className="navbar bg-base-100 shadow-lg px-4 fixed z-10">
+    <div className="h-16">
+      <div className="navbar bg-base-100 shadow-lg px-4 fixed z-10 ">
         <div className="flex-1">
           <a className="btn btn-ghost gap-0 text-2xl text-secondary normal-case">
             Byte<span className="text-primary">Blaze</span>
@@ -57,7 +57,7 @@ const Nav = () => {
             </NavLink>
           </ul>
 
-          <label className="grid cursor-pointer place-items-center">
+          <label className="grid cursor-pointer place-items-center ml-2">
             <input
               onChange={handleToggle}
               type="checkbox"
