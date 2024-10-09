@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   const [theme, setTheme] = useState("light");
@@ -11,7 +11,7 @@ const Nav = () => {
   }, [theme]);
 
   const handleToggle = (e) => {
-    console.log(e.target.checked);
+    // console.log(e.target.checked);
     if (e.target.checked) {
       setTheme("synthwave");
     } else {
